@@ -1,0 +1,154 @@
+[
+    {
+        "id": "filmes",
+        "titulo": "Filmes",
+        "catalogo": [
+            {
+                "nome": "Vingadores",
+                "imagem": "avengers.jpg"
+            },
+            {
+                "nome": "Liga da justiça",
+                "imagem": "justice.jpg"
+            },
+            {
+                "nome": "Mulher maravilha",
+                "imagem": "wonder-woman.jpg"
+            },
+            {
+                "nome": "Campo do medo",
+                "imagem": "campo_medo.jpg"
+            },
+            {
+                "nome": "Sombra lunar",
+                "imagem": "sombra_lunar.jpg"
+            },
+            {
+                "nome": "Vingadores",
+                "imagem": "avengers.jpg"
+            },
+            {
+                "nome": "Liga da justiça",
+                "imagem": "justice.jpg"
+            },
+            {
+                "nome": "Mulher maravilha",
+                "imagem": "wonder-woman.jpg"
+            },
+            {
+                "nome": "Campo do medo",
+                "imagem": "campo_medo.jpg"
+            },
+            {
+                "nome": "Sombra lunar",
+                "imagem": "sombra_lunar.jpg"
+            },
+            {
+                "nome": "Vingadores",
+                "imagem": "avengers.jpg"
+            }
+        ]
+    },
+    {
+        "id": "seriados",
+        "titulo": "Seriados",
+        "catalogo": [
+            {
+                "nome": "Lúcifer",
+                "imagem": "lucifer.jpg"
+            },
+            {
+                "nome": "Grey's anatomy",
+                "imagem": "greys.jpg"
+            },
+            {
+                "nome": "Dr. House",
+                "imagem": "dr_house.png"
+            },
+            {
+                "nome": "Dexter",
+                "imagem": "dexter.jpg"
+            }        
+        ]
+    },
+    {
+        "id": "documentarios",
+        "titulo": "Documentários",
+        "catalogo": [
+            {
+                "nome": "Truques da mente",
+                "imagem": "truques_mente.png"
+            }        
+        ]
+    },
+    {
+        "id": "minhalista",
+        "titulo": "Minha lista",
+        "catalogo": [
+            {
+                "nome": "Truques da mente",
+                "imagem": "truques_mente.png"
+            },
+            {
+                "nome": "Lúcifer",
+                "imagem": "lucifer.jpg"
+            },
+            {
+                "nome": "Grey's anatomy",
+                "imagem": "greys.jpg"
+            },
+            {
+                "nome": "Dr. House",
+                "imagem": "dr_house.png"
+            },
+            {
+                "nome": "Dexter",
+                "imagem": "dexter.jpg"
+            },
+            {
+                "nome": "Vingadores",
+                "imagem": "avengers.jpg"
+            },
+            {
+                "nome": "Liga da justiça",
+                "imagem": "justice.jpg"
+            },
+            {
+                "nome": "Mulher maravilha",
+                "imagem": "wonder-woman.jpg"
+            },
+            {
+                "nome": "Campo do medo",
+                "imagem": "campo_medo.jpg"
+            },
+            {
+                "nome": "Sombra lunar",
+                "imagem": "sombra_lunar.jpg"
+            },
+            {
+                "nome": "Vingadores",
+                "imagem": "avengers.jpg"
+            },
+            {
+                "nome": "Liga da justiça",
+                "imagem": "justice.jpg"
+            },
+            {
+                "nome": "Mulher maravilha",
+                "imagem": "wonder-woman.jpg"
+            },
+            {
+                "nome": "Campo do medo",
+                "imagem": "campo_medo.jpg"
+            },
+            {
+                "nome": "Sombra lunar",
+                "imagem": "sombra_lunar.jpg"
+            },
+            {
+                "nome": "Vingadores",
+                "imagem": "avengers.jpg"
+            }            
+        ]
+    }
+]

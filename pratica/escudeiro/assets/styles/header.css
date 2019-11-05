@@ -1,0 +1,49 @@
+.logo {
+    background-image: url(../images/logo.svg);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position-x: 15px;
+    background-position-y: 5px;
+    width: 60px;
+    color: transparent;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-column-gap: 15px;
+    width: 100%;
+    transition: 1.5s;
+}
+
+nav > ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu > li > a {
+    display: flex;
+    justify-content: center;
+    min-width: 100px;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.menu > li > a:hover {
+    background-color: rgba(120, 67, 144, 0.863);
+    border-radius: 10px;
+}
+
+.actions > li > img {
+    width: 30px;
+    padding: 5px;
+}
+
+html:not([data-scroll='0']) nav {
+    background-color: black;
+}

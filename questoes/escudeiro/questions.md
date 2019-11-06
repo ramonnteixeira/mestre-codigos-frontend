@@ -29,8 +29,11 @@
 4. Qual o retorno da seguinte função
 
     [x] The event 04/02/2019 will take place on Event Test
+    
     [] The event undefined will take place on undefined
+    
     [] Uncaught TypeError
+    
     [] The event null will take place on null
 
 5. Quais são as formas de selecionar um elemento na DOM e qual a diferença entre elas?
@@ -155,8 +158,11 @@
 15. Cite 4 métodos presentes na API de strings do Javascript e explique cada um deles;
 
     * charAt(x) retorna o caracter na posição X.
+    
     * split(token) transforma string em um array, fazendo a quebra de item pelo token passado.
+    
     * startWith(text) retorna um booleano informando se a string inicia com o texto informado.
+    
     * endWith(text) retorna um booleano informando se a string termina com o texto informado.
 
 16. Escreva um código para inserir e resgatar items do LocalStorage/SessionStorage

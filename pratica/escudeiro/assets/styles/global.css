@@ -1,29 +1,25 @@
+html {
+    overflow: hidden;
+}
 html, body {
     margin: 0;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    overflow: hidden;
     color: white;
 }
 
 body {
-    /* background-image: url(../images/films/lucifer.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed; */
     background-color: #1b1b1bf1;
-    display: grid;
-    grid-template-rows: 50px 1fr 30px;
+    overflow-y: auto;
+    height: 100vh;
+}
+
+main {
+    padding-bottom: 20vh;
 }
 
 .right {
     display: flex;
     justify-content: flex-end;
-}
-
-main {
-    overflow-y: auto;
-    overflow-x: hidden;
-    height: calc(100vh - 80px);
 }
 
 h3 {
@@ -32,3 +28,43 @@ h3 {
 }
 
 .invisible { display: none !important; }
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.title-info {
+    padding-bottom: 10%;
+    padding-left: 50px;
+    bottom: 0;
+}
+
+.btn.transparent {
+    border: none;
+    background-color: transparent;
+    border-radius: 19px;
+    color: white;
+    font-size: 1.3em;
+    padding: 8px;
+    min-width: 160px;
+    box-shadow: inset 0px 0px 27px 6px rgb(255, 255, 255, 0.4);
+    cursor: pointer;
+}
+
+.btn.transparent:hover,
+.btn.transparent:focus {
+    box-shadow: inset 0px 0px 27px 6px rgb(255, 255, 255, 0.9);
+    transform: scale(1.2);
+}
+
+.btn.transparent ~ .btn.transparent {
+    margin-left: 15px;
+}
+
+@media only screen and (min-width: 760px) {
+    .title-info {
+        width: 40%;
+    }
+}

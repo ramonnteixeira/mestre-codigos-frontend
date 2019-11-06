@@ -9,11 +9,19 @@
 }
 
 nav {
+    position: absolute;
+    top: 0;
+    z-index: 30;
     display: grid;
     grid-template-columns: auto 1fr auto;
     grid-column-gap: 15px;
     width: 100%;
     transition: 1.5s;
+    opacity: 0.3;
+}
+
+nav:hover {
+    opacity: 1;
 }
 
 nav > ul {
@@ -46,4 +54,16 @@ nav > ul {
 
 html:not([data-scroll='0']) nav {
     background-color: black;
+    opacity: 1;
+}
+
+html:not([data-scroll='0']) header {
+    background-image: none;
+}
+
+header {
+    background-image: url(../images/films/lucifer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 91vh;
 }

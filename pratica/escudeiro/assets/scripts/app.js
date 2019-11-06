@@ -76,7 +76,7 @@ class Carousel {
             this.previousNavigation.className = 'navigation previous';
         }
 
-        if (this.wrapper.scrollLeft >= this.wrapper.offsetWidth + 190) {
+        if (this.wrapper.scrollWidth - this.wrapper.clientWidth <= this.wrapper.scrollLeft) {
             this.nextNavigation.className = 'navigation next invisible';
         } else {
             this.nextNavigation.className = 'navigation next';

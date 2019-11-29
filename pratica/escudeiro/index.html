@@ -11,26 +11,30 @@
     <link rel="stylesheet" href="assets/styles/footer.css">
     <link rel="stylesheet" href="assets/styles/scrollbar.css">
     <link rel="stylesheet" href="assets/styles/carousel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <script async src="assets/scripts/scroll.js"></script>
+    <script defer src="assets/scripts/carousel.js"></script>
     <script defer src="assets/scripts/app.js"></script>
-    <script defer src="assets/scripts/scroll.js"></script>
+    <script defer src="assets/scripts/main.js"></script>
     <title>PptFlix</title>
 </head>
 <body>
     <header>
-        <nav>
-            <a href="#" class="logo">Home</a>
-            <ul class="menu" role="navigation">
-                <li><a href="#filmes">Filmes</a></li>
-                <li><a href="#seriados">Seriados</a></li>
-                <li><a href="#documentarios">Documentários</a></li>
-                <li><a href="#minhalista">Minha Lista</a></li>
-            </ul>
-            <ul class="actions" role="option">
-                <li>
-                    <img src="assets/images/profiles/avatar-01.svg">
-                </li>
-            </ul>
+        <nav id="menu">
+            <a href="#filmes">Filmes</a>
+            <a href="#seriados">Seriados</a>
+            <a href="#documentarios">Documentários</a>
+            <a href="#minhalista">Minha Lista</a>
+            <a href="#" class="profile">
+                <img src="assets/images/profiles/avatar-01.svg">
+                Meu Perfil
+            </a>
+            <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+                <i class="fa fa-bars"></i>
+            </a>
+                
+            <i class="logo">Home</i>
         </nav>
         
         <div class="title-info">

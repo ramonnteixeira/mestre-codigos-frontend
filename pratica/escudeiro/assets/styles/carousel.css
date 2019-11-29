@@ -5,16 +5,18 @@
   display: grid;
   grid-template-columns: 30px 1fr 30px;
   grid-template-areas: 
-    "left title right"
+    "title title title"
     "left carousel right";
 }
 
 .catalog .next {
+  padding-top: 80px;
   padding-right: 5px;
   grid-area: right;
 }
 
 .catalog .previous {
+  padding-top: 80px;
   padding-left: 5px;
   grid-area: left;
 }
@@ -32,11 +34,7 @@
 }
 
 .navigation {
-  padding-top: 30px;
-  display: flex;
-  align-items: center;
   color: white;
-  z-index: 30;
   opacity: 0.5;
 }
 
